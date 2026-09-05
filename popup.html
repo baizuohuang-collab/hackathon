@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body { width: 320px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #0f172a; color: #f8fafc; margin: 0; padding: 16px; }
+    h2 { font-size: 18px; margin-top: 0; color: #38bdf8; text-align: center; }
+    label { font-size: 12px; color: #94a3b8; display: block; margin-top: 10px; }
+    select, textarea, button { width: 100%; border-radius: 6px; padding: 8px; margin-top: 4px; box-sizing: border-box; }
+    select, textarea { background: #1e293b; border: 1px solid #334155; color: #fff; }
+    button { background: #0284c7; border: none; color: #fff; font-weight: bold; cursor: pointer; margin-top: 12px; }
+    button:hover { background: #0369a1; }
+    .card { background: #1e293b; padding: 12px; border-radius: 6px; margin-top: 12px; border-left: 4px solid #38bdf8; }
+    ul { padding-left: 20px; margin: 6px 0; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <h2>ContextShift AI</h2>
+  
+  <label for="mode">Select Target Mode:</label>
+  <select id="mode">
+    <option value="Work">Work / Coding</option>
+    <option value="Study">Deep Study / Research</option>
+    <option value="Personal">Personal / Unwind</option>
+  </select>
+
+  <label for="notes">Raw Session Notes / Goals:</label>
+  <textarea id="notes" rows="3" placeholder="e.g., Need to finish backend API and review docs..."></textarea>
+
+  <button id="shiftBtn">Shift Workspace Context</button>
+
+  <div id="results" class="card" style="display:none;">
+    <strong>Focus Plan:</strong>
+    <ul id="taskList"></ul>
+    <p id="quote" style="font-style: italic; font-size: 11px; color: #cbd5e1;"></p>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
