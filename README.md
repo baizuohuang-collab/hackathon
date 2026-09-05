@@ -60,7 +60,9 @@ python main.py
 # - Click the ContextShift extension icon in your toolbar to begin.
 
 #𝐏𝐫𝐨𝐣𝐞𝐜𝐭 𝐃𝐞𝐦𝐨
-Project Demo URL (Optional): N/A (Local Extension Demo)
+Project Demo URL (Optional): 
+(https://docs.google.com/presentation/d/1lOHwKBV_OcjjxTgaV_TFew3ZRpZr0-Dxb_wKa-eXk_0/edit?slide=id.p1#slide=id.p1)
+
 Evaluation Video: [Link to your 3-minute hackathon demo video]
 
 #𝐋𝐢𝐦𝐢𝐭𝐚𝐭𝐢𝐨𝐧𝐬 & 𝐅𝐮𝐭𝐮𝐫𝐞 𝐖𝐨𝐫𝐤
